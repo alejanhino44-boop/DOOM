@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+header {
+    background: #123b5d;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 850px;
+    margin: 35px auto;
+}
+
+.introduccion,
+.tarjeta {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
+.introduccion h2,
+.tarjeta h2 {
+    color: #123b5d;
+    margin-bottom: 12px;
+}
+
+.numero {
+    color: #087e8b;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.tarjeta p {
+    margin: 15px 0;
+}
+
+button {
+    background: #087e8b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #065f6b;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+#resultado {
+    color: #087e8b;
+    font-weight: bold;
+}
+
+footer {
+    background: #123b5d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
