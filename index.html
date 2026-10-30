@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo el DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>DOM en HTML y JavaScript</h1>
+        <p>Aprende a manipular elementos de una página web</p>
+    </header>
+
+    <main class="contenedor">
+
+        <section class="introduccion">
+            <h2>¿Qué es el DOM?</h2>
+            <p>
+                El DOM (Modelo de Objetos del Documento) permite que
+                JavaScript acceda a los elementos HTML, los modifique
+                y responda a las acciones del usuario.
+            </p>
+        </section>
+
+        <!-- EJEMPLO 1 -->
+        <section class="tarjeta">
+            <span class="numero">EJEMPLO 01</span>
+            <h2>Modificar un texto</h2>
+
+            <p id="mensaje">
+                ¡Hola! Este es el texto original de la página.
+            </p>
+
+            <button id="botonCambiar">
+                Cambiar texto
+            </button>
+        </section>
+
+        <!-- EJEMPLO 2 -->
+        <section class="tarjeta">
+            <span class="numero">EJEMPLO 02</span>
+            <h2>Formulario interactivo</h2>
+
+            <p>Escribe tu nombre para recibir un saludo:</p>
+
+            <input
+                type="text"
+                id="nombre"
+                placeholder="Escribe tu nombre"
+            >
+
+            <button id="botonSaludar">
+                Mostrar saludo
+            </button>
+
+            <p id="resultado"></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Proyecto práctico | Programación Web I</p>
+        <p>Manipulación del DOM con JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
